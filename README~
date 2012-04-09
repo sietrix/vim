@@ -74,8 +74,8 @@ Lo recomendable después de agregar, como cualquier fichero, es hacer push:
 Con esto vamos creando submodulos que son repositorios Git dentro de un repositorio Git.
 
 Los submodulos se pueden actualizar de golpe con:
-	1 git submodule update
 
+	1 git submodule update
 ACTUALIZACIÓN
 
 Se me olvidó comentar como hacemos para instalar este tinglado en otro ordenador. Es fácil. Lo primero es decirle a git que clone nuestro repositorio de GitHub en el directorio por defecto de Vim (~/.vim). Luego como nuestros plugins están en el directorio bundles y son a su vez repositorios de Git (ver el archivo .gitmodules) debemos de decirle a Git que proceda a instalarlos y actualizarlos también:
