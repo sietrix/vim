@@ -1,27 +1,4 @@
-Resumen para clonar en otra máquina:
-
-Instalación:
-
-    git clone git@github.com:Sietrix/vim.git ~/.vim
-
-Creamos links simbolicos para que vim encuentre el fichero .vimrc en home:
-
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
-
-Cambiamos de directorio a `~/.vim`, y actualizamos los submodules:
-
-    cd ~/.vim
-    git submodule init
-    git submodule update
-
-
-------------------------------------------------------------------------------
-Guia para usar github como repositorio de vimrc y todos sus plugin
-
-http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-
-http://prisonernumbersix.com/2011/04/11/vim-github-y-pathogen/ (es lo que continua)
+http://prisonernumbersix.com/2011/04/11/vim-github-y-pathogen/
 
 Vim, Git, GitHub y Pathogen
 April 11, 2011DavidLeave a commentGo to comments
@@ -97,8 +74,8 @@ Lo recomendable después de agregar, como cualquier fichero, es hacer push:
 Con esto vamos creando submodulos que son repositorios Git dentro de un repositorio Git.
 
 Los submodulos se pueden actualizar de golpe con:
-	1 git submodule update
 
+	1 git submodule update
 ACTUALIZACIÓN
 
 Se me olvidó comentar como hacemos para instalar este tinglado en otro ordenador. Es fácil. Lo primero es decirle a git que clone nuestro repositorio de GitHub en el directorio por defecto de Vim (~/.vim). Luego como nuestros plugins están en el directorio bundles y son a su vez repositorios de Git (ver el archivo .gitmodules) debemos de decirle a Git que proceda a instalarlos y actualizarlos también:
