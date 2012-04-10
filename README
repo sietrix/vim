@@ -1,4 +1,27 @@
-http://prisonernumbersix.com/2011/04/11/vim-github-y-pathogen/
+Resume una vez hecho lo posterior para clonar en otra máquina:
+
+Instalación:
+
+    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+
+Creamos links simbolicos para que vim encuentre el fichero .vimrc en home:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Cambiamos de directorio a `~/.vim`, y actualizamos los submodules:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
+
+
+------------------------------------------------------------------------------
+Guia para usar github como repositorio de vimrc y todos sus plugin
+
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
+http://prisonernumbersix.com/2011/04/11/vim-github-y-pathogen/ (es lo que continua)
 
 Vim, Git, GitHub y Pathogen
 April 11, 2011DavidLeave a commentGo to comments
