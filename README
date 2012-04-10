@@ -2,7 +2,7 @@ Resumen una vez hecho lo posterior para clonar en otra máquina:
 
 Instalación:
 
-    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+    git clone git@github.com:Sietrix/vim.git ~/.vim
 
 Creamos links simbolicos para que vim encuentre el fichero .vimrc en home:
 
