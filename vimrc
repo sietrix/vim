@@ -16,7 +16,6 @@ set ruler                  " show the cursor position all the time
 syntax on                  " enable syntax highlighting
 set background=dark        " dark background and syntax highlighting
 
-
 " ----------------------------------------------------------------------------
 "  Text Formatting
 " ----------------------------------------------------------------------------
@@ -43,19 +42,17 @@ set mouse=a		" Enable mouse usage (all modes)
 " -----------------------------------------------------------------------------
 
 
+
+
+
+
+
+
+
+" ----------------------------- Fin fichero 
+
 "set softtabstop=2
-"set shiftwidth=2           " distance to shift lines with < and >
 "set ts=4                   " tab character display size
-
-
-
-
-
-
-
-
-
-" -----------------------------
 
 " Uncomment the following to have Vim jump to the last position when reopening a file
 "if has("autocmd")
