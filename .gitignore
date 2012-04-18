@@ -1,4 +1,5 @@
-# Git ignora las siguientes terminaciones de archivos
-
+# -----------------------------------------------------
+# Git ignorará las siguientes terminaciones de archivos
+# -----------------------------------------------------
 .[oa]   # ignora los archivos acabados en ".o" y los ".a"
 ~       # ignora los archivos acabados en "~" suelen ser backup de archivos
